@@ -13,6 +13,12 @@
 		1F4A7CF72574148A00944AC3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4A7CF62574148A00944AC3 /* Preview Assets.xcassets */; };
 		1F4A7D022574148A00944AC3 /* SimpleViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D012574148A00944AC3 /* SimpleViewsTests.swift */; };
 		1F4A7D0D2574148A00944AC3 /* SimpleViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D0C2574148A00944AC3 /* SimpleViewsUITests.swift */; };
+		1F4A7D1E2574152B00944AC3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D1D2574152B00944AC3 /* CircleImage.swift */; };
+		1F4A7D1F2574152B00944AC3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D1D2574152B00944AC3 /* CircleImage.swift */; };
+		1F4A7D202574152B00944AC3 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D1D2574152B00944AC3 /* CircleImage.swift */; };
+		1F4A7D252574155D00944AC3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D242574155D00944AC3 /* MapView.swift */; };
+		1F4A7D262574155D00944AC3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D242574155D00944AC3 /* MapView.swift */; };
+		1F4A7D272574155D00944AC3 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4A7D242574155D00944AC3 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,8 @@
 		1F4A7D082574148A00944AC3 /* SimpleViewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleViewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F4A7D0C2574148A00944AC3 /* SimpleViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleViewsUITests.swift; sourceTree = "<group>"; };
 		1F4A7D0E2574148A00944AC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4A7D1D2574152B00944AC3 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		1F4A7D242574155D00944AC3 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,8 @@
 				1F4A7CF32574148A00944AC3 /* Assets.xcassets */,
 				1F4A7CF82574148A00944AC3 /* Info.plist */,
 				1F4A7CF52574148A00944AC3 /* Preview Content */,
+				1F4A7D1D2574152B00944AC3 /* CircleImage.swift */,
+				1F4A7D242574155D00944AC3 /* MapView.swift */,
 			);
 			path = SimpleViews;
 			sourceTree = "<group>";
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4A7CF22574148900944AC3 /* ContentView.swift in Sources */,
+				1F4A7D252574155D00944AC3 /* MapView.swift in Sources */,
 				1F4A7CF02574148900944AC3 /* SimpleViewsApp.swift in Sources */,
+				1F4A7D1E2574152B00944AC3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4A7D022574148A00944AC3 /* SimpleViewsTests.swift in Sources */,
+				1F4A7D262574155D00944AC3 /* MapView.swift in Sources */,
+				1F4A7D1F2574152B00944AC3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +291,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F4A7D0D2574148A00944AC3 /* SimpleViewsUITests.swift in Sources */,
+				1F4A7D272574155D00944AC3 /* MapView.swift in Sources */,
+				1F4A7D202574152B00944AC3 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
